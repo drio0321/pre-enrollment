@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(images/slsu.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.login-form{
+    width: 100%;
+    display: flex;
+    max-width: 850px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+.login-form i {
+    font-size: 30px;
+   
+}
+  
+.login{
+    width: 400px;
+}
+form{
+    width: 250px;
+    margin: 50px auto;
+}
+h1{
+    margin: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+p{
+    text-align: center;
+    margin: 10px;
+}
+hr{
+    margin-bottom: 30px;
+    border-top: 2px solid rgb(238, 118, 5);
+}
+
+.pic img{
+    width: 480px;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+form label{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px ;
+}
+input{
+    width: 100%;
+    margin: 5px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(231, 125, 4);
+}
+button{
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 252px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+
+    border-radius: 5px;
+    background: rgb(238, 118, 5);
+}
+
+button:hover{
+    background: rgb(238, 118, 5);
+}s
+p{
+    margin: 20px;
+}
+a{
+    color: rgb(228, 105, 5);
+    text-decoration: none;
+}
+
+.showpassword_box{
+    display: inline-block;
+}
+.showpassword_box label{
+    font-size: 12px;
+    position: relative;
+    left: 25px;
+    bottom: 23px;
+    text-decoration: none;
+
+   
+
+}
+.checkbox{
+    height: 15px;
+    position: relative;
+    right: 40px;
+    margin-top: 10px;
+}
+

@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(images/slsu.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+img{
+    width: 100px;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+   
+}
+
+.login{
+    width: 500px;
+}
+form{
+    width: 500px;
+    margin: 50px auto;
+}
+h2{
+    margin: 5px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+
+p{
+    text-align: center;
+    margin: 10px;
+}
+hr{
+    margin-bottom: 30px;
+    border-top: 2px solid rgb(238, 118, 5);
+}
+
+
+form label{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px ;
+    margin: 20px;
+    text-align: center;
+    font-weight: bolder;
+ 
+
+
+}
+input{
+    width: 100%;
+    margin: 5px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(231, 125, 4);
+}
+button{
+    border: none;
+    outline: none;
+    padding: 8px;
+    margin-left: 201px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    background: rgb(238, 118, 5);
+    display: inline-block;
+    margin-top: 20px;
+}
+button a{
+    color: #fff;
+}
+
+button:hover{
+    background: rgb(6, 131, 27);
+}
+p{
+    margin: 20px;
+}
+a{
+    color: rgb(228, 105, 5);
+    text-decoration: none;
+}
+
+.showpassword_box{
+    display: inline-block;
+}
+.showpassword_box label{
+    font-size: 12px;
+    position: relative;
+    left: 25px;
+    bottom: 23px;
+    text-decoration: none;
+
+   
+
+}
+.checkbox{
+    height: 15px;
+    position: relative;
+    right: 40px;
+    margin-top: 10px;
+}
+
